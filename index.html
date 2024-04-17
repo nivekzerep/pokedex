@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e90a0a;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        .pokemon-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px auto;
+        }
+        
+        .pokemon-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border: 2px solid #050505;
+        }
+        
+        .pokemon-card img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #f2f2f2;
+        }
+        
+        .pokemon-info {
+            padding: 20px;
+        }
+        
+        .pokemon-info h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .pokemon-info p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokédex</h1>
+    
+    <div class="pokemon-container">
+        <!-- Pikachu -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/pikachu.jpg" alt="Pikachu">
+            <div class="pokemon-info">
+                <h2>Pikachu</h2>
+                <p>
+                    Pikachu es un Pokémon de tipo eléctrico. Es conocido por su cola con forma de rayo y su habilidad para generar electricidad. Es el Pokémon mascota de la franquicia Pokémon.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Eléctrico<br>
+                    <strong>Altura:</strong> 0.4 m<br>
+                    <strong>Peso:</strong> 6.0 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Squirtle -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/squirtle.jpg" alt="Squirtle">
+            <div class="pokemon-info">
+                <h2>Squirtle</h2>
+                <p>
+                    Squirtle es un Pokémon de tipo agua. Tiene una concha en su espalda que le proporciona protección. Squirtle puede lanzar agua a alta presión desde su boca.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Agua<br>
+                    <strong>Altura:</strong> 0.5 m<br>
+                    <strong>Peso:</strong> 9.0 kg
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Bulbasaur -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/bulbasaur.jpg" alt="Bulbasaur">
+            <div class="pokemon-info">
+                <h2>Bulbasaur</h2>
+                <p>
+                    Bulbasaur es un Pokémon de tipo planta/veneno. Tiene una semilla en su espalda que crece con él. Esta semilla absorbe nutrientes del sol, lo que le permite a Bulbasaur crecer y evolucionar.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Planta/Veneno<br>
+                    <strong>Altura:</strong> 0.7 m<br>
+                    <strong>Peso:</strong> 6.9 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Charmander -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/charmander.jpg" alt="Charmander">
+            <div class="pokemon-info">
+                <h2>Charmander</h2>
+                <p>
+                    Charmander es un Pokémon de tipo fuego. Tiene una llama en la punta de su cola, la cual arde de manera constante. Si esta llama se apaga, Charmander morirá.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Fuego<br>
+                    <strong>Altura:</strong> 0.6 m<br>
+                    <strong>Peso:</strong> 8.5 kg
+                </p>
+            </div>
+        </div>
+        
+        <!-- Ivysaur (Segunda evolución de Bulbasaur) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/ivysaur.jpg" alt="Ivysaur">
+            <div class="pokemon-info">
+                <h2>Ivysaur</h2>
+                <p>
+                    Ivysaur es la segunda evolución de Bulbasaur. Es un Pokémon de tipo planta/veneno. Tiene una flor en su espalda que está a punto de florecer.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Planta/Veneno<br>
+                    <strong>Altura:</strong> 1.0 m<br>
+                    <strong>Peso:</strong> 13.0 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Venusaur (Tercera evolución de Bulbasaur) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/venusaur.jpg" alt="Venusaur">
+            <div class="pokemon-info">
+                <h2>Venusaur</h2>
+                <p>
+                    Venusaur es la tercera evolución de Bulbasaur. Es un Pokémon de tipo planta/veneno. Tiene una flor grande y hermosa en su espalda que libera un aroma dulce.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Planta/Veneno<br>
+                    <strong>Altura:</strong> 2.0 m<br>
+                    <strong>Peso:</strong> 100.0 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Wartortle (Segunda evolución de Squirtle) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/wartortle.jpg" alt="Wartortle">
+            <div class="pokemon-info">
+                <h2>Wartortle</h2>
+                <p>
+                    Wartortle es la segunda evolución de Squirtle. Es un Pokémon de tipo agua. Tiene una cola grande y peluda que le proporciona estabilidad en el agua.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Agua<br>
+                    <strong>Altura:</strong> 1.0 m<br>
+                    <strong>Peso:</strong> 22.5 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Blastoise (Tercera evolución de Squirtle) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/blastoise.jpg" alt="Blastoise">
+            <div class="pokemon-info">
+                <h2>Blastoise</h2>
+                <p>
+                    Blastoise es la tercera evolución de Squirtle. Es un Pokémon de tipo agua. Tiene unos cañones de agua en su caparazón que puede usar para disparar poderosos chorros de agua.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Agua<br>
+                    <strong>Altura:</strong> 1.6 m<br>
+                    <strong>Peso:</strong> 85.5 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Charmeleon (Segunda evolución de Charmander) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/charmeleon.jpg" alt="Charmeleon">
+            <div class="pokemon-info">
+                <h2>Charmeleon</h2>
+                <p>
+                    Charmeleon es la segunda evolución de Charmander. Es un Pokémon de tipo fuego. Tiene una llama más grande en la punta de su cola y cuernos más pronunciados.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Fuego<br>
+                    <strong>Altura:</strong> 1.1 m<br>
+                    <strong>Peso:</strong> 19.0 kg
+                </p>
+            </div>
+        </div>
+
+        <!-- Charizard (Tercera evolución de Charmander) -->
+        <div class="pokemon-card">
+            <img src="https://img.pokemondb.net/artwork/large/charizard.jpg" alt="Charizard">
+            <div class="pokemon-info">
+                <h2>Charizard</h2>
+                <p>
+                    Charizard es la tercera evolución de Charmander. Es un Pokémon de tipo fuego/volador. Tiene alas poderosas que le permiten volar a grandes alturas y lanzar llamas ardientes sobre sus oponentes.
+                </p>
+                <p>
+                    <strong>Tipo:</strong> Fuego/Volador<br>
+                    <strong>Altura:</strong> 1.7 m<br>
+                    <strong>Peso:</strong> 90.5 kg
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
